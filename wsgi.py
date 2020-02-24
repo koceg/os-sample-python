@@ -4,7 +4,7 @@ application = Flask(__name__)
 
 @application.route("/")
 def hello():
-    return "Running s2i image ,{}".format(strftime('%Y-%m-%d %H:%M:%S'))
+    return "20200224--Running s2i image ,{}".format(strftime('%Y-%m-%d %H:%M:%S'))
 
 if __name__ == "__main__":
     application.run()
